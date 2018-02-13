@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02AFE4C320334EAA0098807A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AFE4C220334EAA0098807A /* AppDelegate.swift */; };
+		02AFE4C520334EAA0098807A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AFE4C420334EAA0098807A /* ViewController.swift */; };
+		02AFE4C820334EAA0098807A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02AFE4C620334EAA0098807A /* Main.storyboard */; };
+		02AFE4CB20334EAA0098807A /* Kent_Simgeleri.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02AFE4C920334EAA0098807A /* Kent_Simgeleri.xcdatamodeld */; };
+		02AFE4CD20334EAA0098807A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02AFE4CC20334EAA0098807A /* Assets.xcassets */; };
+		02AFE4D020334EAA0098807A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02AFE4CE20334EAA0098807A /* LaunchScreen.storyboard */; };
+		02AFE4DB20334EAA0098807A /* Kent_SimgeleriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AFE4DA20334EAA0098807A /* Kent_SimgeleriTests.swift */; };
+		02AFE4E620334EAA0098807A /* Kent_SimgeleriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AFE4E520334EAA0098807A /* Kent_SimgeleriUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02AFE4D720334EAA0098807A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02AFE4B720334EA90098807A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02AFE4BE20334EA90098807A;
+			remoteInfo = "Kent Simgeleri";
+		};
+		02AFE4E220334EAA0098807A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02AFE4B720334EA90098807A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02AFE4BE20334EA90098807A;
+			remoteInfo = "Kent Simgeleri";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02AFE4BF20334EAA0098807A /* Kent Simgeleri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kent Simgeleri.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02AFE4C220334EAA0098807A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02AFE4C420334EAA0098807A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02AFE4C720334EAA0098807A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02AFE4CA20334EAA0098807A /* Kent_Simgeleri.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kent_Simgeleri.xcdatamodel; sourceTree = "<group>"; };
+		02AFE4CC20334EAA0098807A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02AFE4CF20334EAA0098807A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02AFE4D120334EAA0098807A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02AFE4D620334EAA0098807A /* Kent SimgeleriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kent SimgeleriTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02AFE4DA20334EAA0098807A /* Kent_SimgeleriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kent_SimgeleriTests.swift; sourceTree = "<group>"; };
+		02AFE4DC20334EAA0098807A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02AFE4E120334EAA0098807A /* Kent SimgeleriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kent SimgeleriUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02AFE4E520334EAA0098807A /* Kent_SimgeleriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kent_SimgeleriUITests.swift; sourceTree = "<group>"; };
+		02AFE4E720334EAB0098807A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02AFE4BC20334EA90098807A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02AFE4D320334EAA0098807A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02AFE4DE20334EAA0098807A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02AFE4B620334EA90098807A = {
+			isa = PBXGroup;
+			children = (
+				02AFE4C120334EAA0098807A /* Kent Simgeleri */,
+				02AFE4D920334EAA0098807A /* Kent SimgeleriTests */,
+				02AFE4E420334EAA0098807A /* Kent SimgeleriUITests */,
+				02AFE4C020334EAA0098807A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02AFE4C020334EAA0098807A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02AFE4BF20334EAA0098807A /* Kent Simgeleri.app */,
+				02AFE4D620334EAA0098807A /* Kent SimgeleriTests.xctest */,
+				02AFE4E120334EAA0098807A /* Kent SimgeleriUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02AFE4C120334EAA0098807A /* Kent Simgeleri */ = {
+			isa = PBXGroup;
+			children = (
+				02AFE4C220334EAA0098807A /* AppDelegate.swift */,
+				02AFE4C420334EAA0098807A /* ViewController.swift */,
+				02AFE4C620334EAA0098807A /* Main.storyboard */,
+				02AFE4CC20334EAA0098807A /* Assets.xcassets */,
+				02AFE4CE20334EAA0098807A /* LaunchScreen.storyboard */,
+				02AFE4D120334EAA0098807A /* Info.plist */,
+				02AFE4C920334EAA0098807A /* Kent_Simgeleri.xcdatamodeld */,
+			);
+			path = "Kent Simgeleri";
+			sourceTree = "<group>";
+		};
+		02AFE4D920334EAA0098807A /* Kent SimgeleriTests */ = {
+			isa = PBXGroup;
+			children = (
+				02AFE4DA20334EAA0098807A /* Kent_SimgeleriTests.swift */,
+				02AFE4DC20334EAA0098807A /* Info.plist */,
+			);
+			path = "Kent SimgeleriTests";
+			sourceTree = "<group>";
+		};
+		02AFE4E420334EAA0098807A /* Kent SimgeleriUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02AFE4E520334EAA0098807A /* Kent_SimgeleriUITests.swift */,
+				02AFE4E720334EAB0098807A /* Info.plist */,
+			);
+			path = "Kent SimgeleriUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02AFE4BE20334EA90098807A /* Kent Simgeleri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02AFE4EA20334EAB0098807A /* Build configuration list for PBXNativeTarget "Kent Simgeleri" */;
+			buildPhases = (
+				02AFE4BB20334EA90098807A /* Sources */,
+				02AFE4BC20334EA90098807A /* Frameworks */,
+				02AFE4BD20334EA90098807A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kent Simgeleri";
+			productName = "Kent Simgeleri";
+			productReference = 02AFE4BF20334EAA0098807A /* Kent Simgeleri.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02AFE4D520334EAA0098807A /* Kent SimgeleriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02AFE4ED20334EAB0098807A /* Build configuration list for PBXNativeTarget "Kent SimgeleriTests" */;
+			buildPhases = (
+				02AFE4D220334EAA0098807A /* Sources */,
+				02AFE4D320334EAA0098807A /* Frameworks */,
+				02AFE4D420334EAA0098807A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02AFE4D820334EAA0098807A /* PBXTargetDependency */,
+			);
+			name = "Kent SimgeleriTests";
+			productName = "Kent SimgeleriTests";
+			productReference = 02AFE4D620334EAA0098807A /* Kent SimgeleriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02AFE4E020334EAA0098807A /* Kent SimgeleriUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02AFE4F020334EAB0098807A /* Build configuration list for PBXNativeTarget "Kent SimgeleriUITests" */;
+			buildPhases = (
+				02AFE4DD20334EAA0098807A /* Sources */,
+				02AFE4DE20334EAA0098807A /* Frameworks */,
+				02AFE4DF20334EAA0098807A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02AFE4E320334EAA0098807A /* PBXTargetDependency */,
+			);
+			name = "Kent SimgeleriUITests";
+			productName = "Kent SimgeleriUITests";
+			productReference = 02AFE4E120334EAA0098807A /* Kent SimgeleriUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02AFE4B720334EA90098807A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mert Yiğit";
+				TargetAttributes = {
+					02AFE4BE20334EA90098807A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					02AFE4D520334EAA0098807A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 02AFE4BE20334EA90098807A;
+					};
+					02AFE4E020334EAA0098807A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 02AFE4BE20334EA90098807A;
+					};
+				};
+			};
+			buildConfigurationList = 02AFE4BA20334EA90098807A /* Build configuration list for PBXProject "Kent Simgeleri" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02AFE4B620334EA90098807A;
+			productRefGroup = 02AFE4C020334EAA0098807A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02AFE4BE20334EA90098807A /* Kent Simgeleri */,
+				02AFE4D520334EAA0098807A /* Kent SimgeleriTests */,
+				02AFE4E020334EAA0098807A /* Kent SimgeleriUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02AFE4BD20334EA90098807A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AFE4D020334EAA0098807A /* LaunchScreen.storyboard in Resources */,
+				02AFE4CD20334EAA0098807A /* Assets.xcassets in Resources */,
+				02AFE4C820334EAA0098807A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02AFE4D420334EAA0098807A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02AFE4DF20334EAA0098807A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02AFE4BB20334EA90098807A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AFE4C520334EAA0098807A /* ViewController.swift in Sources */,
+				02AFE4C320334EAA0098807A /* AppDelegate.swift in Sources */,
+				02AFE4CB20334EAA0098807A /* Kent_Simgeleri.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02AFE4D220334EAA0098807A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AFE4DB20334EAA0098807A /* Kent_SimgeleriTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02AFE4DD20334EAA0098807A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02AFE4E620334EAA0098807A /* Kent_SimgeleriUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02AFE4D820334EAA0098807A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02AFE4BE20334EA90098807A /* Kent Simgeleri */;
+			targetProxy = 02AFE4D720334EAA0098807A /* PBXContainerItemProxy */;
+		};
+		02AFE4E320334EAA0098807A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02AFE4BE20334EA90098807A /* Kent Simgeleri */;
+			targetProxy = 02AFE4E220334EAA0098807A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02AFE4C620334EAA0098807A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02AFE4C720334EAA0098807A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02AFE4CE20334EAA0098807A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02AFE4CF20334EAA0098807A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02AFE4E820334EAB0098807A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02AFE4E920334EAB0098807A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02AFE4EB20334EAB0098807A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kent Simgeleri/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mertyigit.Kent-Simgeleri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02AFE4EC20334EAB0098807A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kent Simgeleri/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mertyigit.Kent-Simgeleri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02AFE4EE20334EAB0098807A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kent SimgeleriTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mertyigit.Kent-SimgeleriTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kent Simgeleri.app/Kent Simgeleri";
+			};
+			name = Debug;
+		};
+		02AFE4EF20334EAB0098807A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kent SimgeleriTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mertyigit.Kent-SimgeleriTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kent Simgeleri.app/Kent Simgeleri";
+			};
+			name = Release;
+		};
+		02AFE4F120334EAB0098807A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kent SimgeleriUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mertyigit.Kent-SimgeleriUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kent Simgeleri";
+			};
+			name = Debug;
+		};
+		02AFE4F220334EAB0098807A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Kent SimgeleriUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mertyigit.Kent-SimgeleriUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kent Simgeleri";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02AFE4BA20334EA90098807A /* Build configuration list for PBXProject "Kent Simgeleri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02AFE4E820334EAB0098807A /* Debug */,
+				02AFE4E920334EAB0098807A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02AFE4EA20334EAB0098807A /* Build configuration list for PBXNativeTarget "Kent Simgeleri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02AFE4EB20334EAB0098807A /* Debug */,
+				02AFE4EC20334EAB0098807A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02AFE4ED20334EAB0098807A /* Build configuration list for PBXNativeTarget "Kent SimgeleriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02AFE4EE20334EAB0098807A /* Debug */,
+				02AFE4EF20334EAB0098807A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02AFE4F020334EAB0098807A /* Build configuration list for PBXNativeTarget "Kent SimgeleriUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02AFE4F120334EAB0098807A /* Debug */,
+				02AFE4F220334EAB0098807A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		02AFE4C920334EAA0098807A /* Kent_Simgeleri.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				02AFE4CA20334EAA0098807A /* Kent_Simgeleri.xcdatamodel */,
+			);
+			currentVersion = 02AFE4CA20334EAA0098807A /* Kent_Simgeleri.xcdatamodel */;
+			path = Kent_Simgeleri.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 02AFE4B720334EA90098807A /* Project object */;
+}
