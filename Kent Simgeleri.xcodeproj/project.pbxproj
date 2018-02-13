@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0294AAD7203356F3003C4548 /* tilburg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0294AACD203356EF003C4548 /* tilburg.jpg */; };
+		0294AAD8203356F3003C4548 /* havana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0294AACE203356EF003C4548 /* havana.jpg */; };
+		0294AAD9203356F3003C4548 /* riodejanerio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0294AACF203356EF003C4548 /* riodejanerio.jpg */; };
+		0294AADA203356F3003C4548 /* meksico.png in Resources */ = {isa = PBXBuildFile; fileRef = 0294AAD0203356F0003C4548 /* meksico.png */; };
+		0294AADB203356F3003C4548 /* roma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0294AAD1203356F1003C4548 /* roma.jpg */; };
+		0294AADC203356F3003C4548 /* paris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0294AAD2203356F1003C4548 /* paris.jpg */; };
+		0294AADD203356F3003C4548 /* bruksel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0294AAD3203356F2003C4548 /* bruksel.jpg */; };
+		0294AADE203356F3003C4548 /* eindhoven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0294AAD4203356F2003C4548 /* eindhoven.jpg */; };
+		0294AADF203356F3003C4548 /* istanbul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0294AAD5203356F3003C4548 /* istanbul.jpg */; };
+		0294AAE0203356F3003C4548 /* munih.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0294AAD6203356F3003C4548 /* munih.jpg */; };
+		0294AAE220335FD3003C4548 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0294AAE120335FD3003C4548 /* ImageViewController.swift */; };
 		02AFE4C320334EAA0098807A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AFE4C220334EAA0098807A /* AppDelegate.swift */; };
 		02AFE4C520334EAA0098807A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AFE4C420334EAA0098807A /* ViewController.swift */; };
 		02AFE4C820334EAA0098807A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02AFE4C620334EAA0098807A /* Main.storyboard */; };
@@ -35,6 +46,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0294AACD203356EF003C4548 /* tilburg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tilburg.jpg; sourceTree = "<group>"; };
+		0294AACE203356EF003C4548 /* havana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = havana.jpg; sourceTree = "<group>"; };
+		0294AACF203356EF003C4548 /* riodejanerio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = riodejanerio.jpg; sourceTree = "<group>"; };
+		0294AAD0203356F0003C4548 /* meksico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meksico.png; sourceTree = "<group>"; };
+		0294AAD1203356F1003C4548 /* roma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = roma.jpg; sourceTree = "<group>"; };
+		0294AAD2203356F1003C4548 /* paris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paris.jpg; sourceTree = "<group>"; };
+		0294AAD3203356F2003C4548 /* bruksel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bruksel.jpg; sourceTree = "<group>"; };
+		0294AAD4203356F2003C4548 /* eindhoven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eindhoven.jpg; sourceTree = "<group>"; };
+		0294AAD5203356F3003C4548 /* istanbul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = istanbul.jpg; sourceTree = "<group>"; };
+		0294AAD6203356F3003C4548 /* munih.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = munih.jpg; sourceTree = "<group>"; };
+		0294AAE120335FD3003C4548 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		02AFE4BF20334EAA0098807A /* Kent Simgeleri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kent Simgeleri.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02AFE4C220334EAA0098807A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02AFE4C420334EAA0098807A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +98,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0294AACC203356D2003C4548 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0294AAD3203356F2003C4548 /* bruksel.jpg */,
+				0294AAD4203356F2003C4548 /* eindhoven.jpg */,
+				0294AACE203356EF003C4548 /* havana.jpg */,
+				0294AAD5203356F3003C4548 /* istanbul.jpg */,
+				0294AAD0203356F0003C4548 /* meksico.png */,
+				0294AAD6203356F3003C4548 /* munih.jpg */,
+				0294AAD2203356F1003C4548 /* paris.jpg */,
+				0294AACF203356EF003C4548 /* riodejanerio.jpg */,
+				0294AAD1203356F1003C4548 /* roma.jpg */,
+				0294AACD203356EF003C4548 /* tilburg.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		02AFE4B620334EA90098807A = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +138,10 @@
 		02AFE4C120334EAA0098807A /* Kent Simgeleri */ = {
 			isa = PBXGroup;
 			children = (
+				0294AACC203356D2003C4548 /* images */,
 				02AFE4C220334EAA0098807A /* AppDelegate.swift */,
 				02AFE4C420334EAA0098807A /* ViewController.swift */,
+				0294AAE120335FD3003C4548 /* ImageViewController.swift */,
 				02AFE4C620334EAA0098807A /* Main.storyboard */,
 				02AFE4CC20334EAA0098807A /* Assets.xcassets */,
 				02AFE4CE20334EAA0098807A /* LaunchScreen.storyboard */,
@@ -235,9 +276,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0294AADE203356F3003C4548 /* eindhoven.jpg in Resources */,
+				0294AADF203356F3003C4548 /* istanbul.jpg in Resources */,
+				0294AADA203356F3003C4548 /* meksico.png in Resources */,
+				0294AAD9203356F3003C4548 /* riodejanerio.jpg in Resources */,
 				02AFE4D020334EAA0098807A /* LaunchScreen.storyboard in Resources */,
 				02AFE4CD20334EAA0098807A /* Assets.xcassets in Resources */,
+				0294AAD8203356F3003C4548 /* havana.jpg in Resources */,
+				0294AADC203356F3003C4548 /* paris.jpg in Resources */,
 				02AFE4C820334EAA0098807A /* Main.storyboard in Resources */,
+				0294AADB203356F3003C4548 /* roma.jpg in Resources */,
+				0294AAE0203356F3003C4548 /* munih.jpg in Resources */,
+				0294AADD203356F3003C4548 /* bruksel.jpg in Resources */,
+				0294AAD7203356F3003C4548 /* tilburg.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +315,7 @@
 			files = (
 				02AFE4C520334EAA0098807A /* ViewController.swift in Sources */,
 				02AFE4C320334EAA0098807A /* AppDelegate.swift in Sources */,
+				0294AAE220335FD3003C4548 /* ImageViewController.swift in Sources */,
 				02AFE4CB20334EAA0098807A /* Kent_Simgeleri.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
